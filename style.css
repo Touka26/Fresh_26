@@ -1,0 +1,46 @@
+.pricing-section {
+    padding: 3rem 1.5rem;
+    text-align: center;
+}
+
+.plan-card {
+    border: 1px solid #eaeaea;
+    border-radius: 6px;
+    padding: 2rem;
+}
+
+.plan-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.plan-price {
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 1rem 0;
+}
+
+.get-started-btn {
+    margin-top: 1rem;
+}
+
+.plan-description {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.line {
+    position: relative;
+}
+
+.line::after {
+    content: '';
+    width: 60px;
+    height: 5px;
+    background-color: orangered;
+    position: absolute;
+    top: 180%;
+    left: 50%;
+    border-radius: 5px;
+    translate: -50%;
+}
